@@ -10,10 +10,10 @@ import java.awt.image.BufferedImage;
  * can get an Image from a picture or a BufferedImage.  You can load
  * it from a file name or image.  You can show a picture.  You can 
  * explore a picture.  You can create a new image for it.
- * 
+ *
  * @author Barb Ericson ericson@cc.gatech.edu
  */
-public interface DigitalPicture 
+public interface DigitalPicture
 {
   public String getFileName(); // get the file name that the picture came from
   public String getTitle(); // get the title of the picture
